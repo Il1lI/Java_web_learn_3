@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>o((>ω< ))o</title>
+    <style>
+        /*
+        类选择器
+        在多个标签样式相同的时候用
+
+        对标签来说，class值并不是唯一的
+        对单个标签，class值可以有多个，以空格隔开
+
+        ID选择器
+        当在页面中需要指定选择某一个标签时使用（精确）
+        在页面中，标签的id值不能重复
+
+        在相同选择器之间，谁离标签最近谁生效
+        在不同选择器之间，id选择器>>类选择器>>标签选择器
+
+        子代选择器（<）
+
+        群组选择器（,）
+
+        属性选择器（[]）
+
+
+        */
+        * {
+            font-size: 50px;
+        }
+        .wg {
+            color: cornflowerblue;
+        }
+        .gz {
+            color: royalblue;
+        }
+        .ggg {
+            letter-spacing: 10px;
+        }
+        #zzzs {
+            color: indianred;
+        }
+        #zzzs {
+            color: blue;
+        }
+        #jngz {
+            color: grey;
+        }
+        .jz {
+            color: #000;}
+        div>p{
+            color: darkturquoise;
+        }
+        ul,li {
+            color: lightsteelblue;
+            list-style: none;
+        }
+        input[type="text"] {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+<p class="wg">天下武功</p>
+<p class="gz ggg">唯鸽不破</p>
+<p id="zzzs">执子之手</p>
+<p id="jngz" class="jz">将子鸽走</p>
+<div>
+    <p>咕咕咕</p>
+    <p>gugugu</p>
+</div>
+<ul>
+    <li>测试咕1</li>
+    <li>测试咕2</li>
+</ul>
+<input type="text"><br>
+<input type="password">
+</body>
+</html>
