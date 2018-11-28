@@ -27,7 +27,7 @@
 
         */
         * {
-            font-size: 50px;
+            font-size: 10px;
         }
         .wg {
             color: cornflowerblue;
@@ -59,6 +59,18 @@
         input[type="text"] {
             background-color: lightgreen;
         }
+        a:link {/*默认*/
+            color: gray;
+        }
+        a:visited {/*点击后*/
+            color: black;
+        }
+        a:hover {/*移动到a标签时*/
+            color: red;
+        }
+        a:active {/*点击时*/
+            background-color: black;
+        }
     </style>
 </head>
 <body>
@@ -76,5 +88,10 @@
 </ul>
 <input type="text"><br>
 <input type="password">
+<br>
+<a href="#">操作</a>
+<a href="#">登录</a>
+<br>
+
 </body>
 </html>
